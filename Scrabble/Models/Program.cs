@@ -10,7 +10,8 @@ namespace Scrabble.Models
       Console.WriteLine("Give me a word");
       string userInput = Console.ReadLine();
       Word newWord = new Word(userInput);
-      
+      int printOutWordScore = newWord.GetWordScore();
+      Console.WriteLine(printOutWordScore);
     }
   }
 }

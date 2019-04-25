@@ -37,5 +37,19 @@ namespace Scrabble.Tests
     }
     // Test methods will go here.
 
+    // [TestMethod]
+    // public void AssignCharToValue_GiveEachLetterAValue_Int()
+    // {
+    //   //Arrange
+    //   string userInput = "CAT";
+    //   Word newWord = new Word(userInput);
+    //
+    //   //Act: Invoking the functionality that is being tested; often by calling a method
+    //   int result = newWord.AssignCharToValue(5);
+    //
+    //   //Assert
+    //   CollectionAssert.AreEqual(5, result);
+    // }
+
   }
 }
