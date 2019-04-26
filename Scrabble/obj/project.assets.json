@@ -686,23 +686,23 @@
     ]
   },
   "packageFolders": {
-    "/Users/Guest/.nuget/packages/": {},
+    "/Users/ashleyancheta/.nuget/packages/": {},
     "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/Guest/Desktop/Scrabble.Solutions/Scrabble/Scrabble.csproj",
+      "projectUniqueName": "/Users/ashleyancheta/Desktop/Scrabble.Solution/Scrabble/Scrabble.csproj",
       "projectName": "Scrabble",
-      "projectPath": "/Users/Guest/Desktop/Scrabble.Solutions/Scrabble/Scrabble.csproj",
-      "packagesPath": "/Users/Guest/.nuget/packages/",
-      "outputPath": "/Users/Guest/Desktop/Scrabble.Solutions/Scrabble/obj/",
+      "projectPath": "/Users/ashleyancheta/Desktop/Scrabble.Solution/Scrabble/Scrabble.csproj",
+      "packagesPath": "/Users/ashleyancheta/.nuget/packages/",
+      "outputPath": "/Users/ashleyancheta/Desktop/Scrabble.Solution/Scrabble/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "/Users/Guest/.nuget/NuGet/NuGet.Config"
+        "/Users/ashleyancheta/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.2"

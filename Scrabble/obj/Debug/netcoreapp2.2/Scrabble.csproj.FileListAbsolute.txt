@@ -7,3 +7,12 @@
 /Users/Guest/Desktop/Scrabble.Solutions/Scrabble/bin/Debug/netcoreapp2.2/Scrabble.pdb
 /Users/Guest/Desktop/Scrabble.Solutions/Scrabble/obj/Debug/netcoreapp2.2/Scrabble.dll
 /Users/Guest/Desktop/Scrabble.Solutions/Scrabble/obj/Debug/netcoreapp2.2/Scrabble.pdb
+/Users/ashleyancheta/Desktop/Scrabble.Solution/Scrabble/obj/Debug/netcoreapp2.2/Scrabble.csprojAssemblyReference.cache
+/Users/ashleyancheta/Desktop/Scrabble.Solution/Scrabble/obj/Debug/netcoreapp2.2/Scrabble.csproj.CoreCompileInputs.cache
+/Users/ashleyancheta/Desktop/Scrabble.Solution/Scrabble/obj/Debug/netcoreapp2.2/Scrabble.AssemblyInfoInputs.cache
+/Users/ashleyancheta/Desktop/Scrabble.Solution/Scrabble/obj/Debug/netcoreapp2.2/Scrabble.AssemblyInfo.cs
+/Users/ashleyancheta/Desktop/Scrabble.Solution/Scrabble/obj/Debug/netcoreapp2.2/Scrabble.dll
+/Users/ashleyancheta/Desktop/Scrabble.Solution/Scrabble/obj/Debug/netcoreapp2.2/Scrabble.pdb
+/Users/ashleyancheta/Desktop/Scrabble.Solution/Scrabble/bin/Debug/netcoreapp2.2/Scrabble.deps.json
+/Users/ashleyancheta/Desktop/Scrabble.Solution/Scrabble/bin/Debug/netcoreapp2.2/Scrabble.dll
+/Users/ashleyancheta/Desktop/Scrabble.Solution/Scrabble/bin/Debug/netcoreapp2.2/Scrabble.pdb

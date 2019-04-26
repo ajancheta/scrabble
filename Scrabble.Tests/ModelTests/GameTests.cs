@@ -10,14 +10,16 @@ namespace Scrabble.Tests
   {
 
     [TestMethod]
-    public void GameConstructor_CreatesInstanceOfGame_Game()
+    public void Word_ReturnLetterScore_Int()
     {
-      //Arrange/Act: Gathering, declaring and or creating all necessary components for the test
-      string userInput = "CAT";
-      Word newWord = new Word(userInput);
+      //Arrange: Gathering, declaring and or creating all necessary components for the test
+      Word newWord = new Word();
+
+      //Act: Invoking the functionality that is being tested; often by calling a method
+      int result = newWord.LetterValue('Z');
 
       //Assert: Confirm functionality works as planned
-      Assert.AreEqual(typeof(Word), newWord.GetType());
+      Assert.AreEqual(10, result);
     }
 
 
@@ -25,31 +27,29 @@ namespace Scrabble.Tests
     public void CreateCharArray_SplitWordIntoIndividualCharIntoArray_Char()
     {
       //Arrange
-      string userInput = "CAT";
-      Word newWord = new Word(userInput);
+      // string userInput = "CAT";
+      Word newWord = new Word();
 
       //Act: Invoking the functionality that is being tested; often by calling a method
-      char[] charArray = {'C', 'A', 'T'};
-      char[] result = newWord.CharSplit("CAT");
+      char[] testArray = {'C', 'A', 'T'};
+      char[] result = newWord.WordToChar("CAT");
 
       //Assert
-      CollectionAssert.AreEqual(charArray, result);
+      CollectionAssert.AreEqual(testArray, result);
     }
-    // Test methods will go here.
 
-    // [TestMethod]
-    // public void AssignCharToValue_GiveEachLetterAValue_Int()
-    // {
-    //   //Arrange
-    //   string userInput = "CAT";
-    //   Word newWord = new Word(userInput);
-    //
-    //   //Act: Invoking the functionality that is being tested; often by calling a method
-    //   int result = newWord.AssignCharToValue(5);
-    //
-    //   //Assert
-    //   CollectionAssert.AreEqual(5, result);
-    // }
+    [TestMethod]
+    public void Word_FindLetterValueInDictionaryAndAddScoreTotal_Int()
+    {
+      //Arrange
+      // string userInput = "CAT";
+      Word newWord = new Word();
 
+      //Act
+      int result = newWord.TotalWordScore("cat");
+
+      //Assert
+      Assert.AreEqual(5, result);
+    }
   }
 }
